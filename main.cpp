@@ -152,6 +152,11 @@ int main(int argc, char** argv){
 
    In the worst case where every prefix matches every movie (k = n), this becomes:
       O(n*log n + m*n*log n) ≈ O(m*n*log n)
+
+   for input_20_random: real 0m0.141s user0m0.011s sys0m0.019s
+   for input_100_random: real 0m0.134s user 0m0.045s sys 0m0.012s
+   for input_1000_random: real 0m0.488s user 0m0.474s sys 0m0.012s
+   for input_76920_random: real 0m57.26s user 0m56.799s sys 0m0.117s  
 */
 
 /* Part 3b Space Complexity Analysis:
